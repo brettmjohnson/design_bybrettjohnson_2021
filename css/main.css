@@ -614,9 +614,6 @@ a.work-card-overlay-link::after {
    ========================================================================== */
 
 .films-by {
-  background-color: #2B2B2B;
-  background-color: #222;
-  background-color: #1F1F1F;
   background-color: #1C1C1C;
   --font-color-a: var(--white);
   --font-color-b: var(--white-transparent);
@@ -642,26 +639,6 @@ a.work-card-overlay-link::after {
    ========================================================================== */
 
 .design-by {
-  background-color: #eee;
-  background-color: #444;
-  background-color: #50253F;
-  background-color: #462037;
-  background-color: #3a1b2d;
-  /* background-color: #331928; */
-  /* background-color: #2F3B41;
-  background-color: #262f33;
-  background-color: #302530; */
-  /* background-color: #382938; */
-  /* background-color: #272233; */
-  background-color: #291d29;
-  background-color: #241d29;
-  background-color: #291f30;
-  background-color: #242125;
-  background-color: #2a2d2e;
-  background-color: #2a2b30;
-  background-color: #282a2b;
-  /* background-color: #28282b; */
-  background-color: #361a32;
   background-color: #301e30;
   --font-color-a: var(--white);
   --font-color-b: var(--white-transparent);
@@ -670,7 +647,6 @@ a.work-card-overlay-link::after {
 .design-by-main {
   position: relative;
   padding-left: 2.5rem;
-  /* padding-left: calc(100% / 12); */
 }
 
 .design-by-phone {
@@ -741,7 +717,6 @@ a.work-card-overlay-link::after {
 
 .air-force-academy {
   background-color: #00529C;
-  /* background-color: #194266; */
   --font-color-a: var(--white);
   --font-color-b: var(--white-transparent);
 }
@@ -1093,6 +1068,15 @@ a.work-card-overlay-link::after {
   .work-card-image::after {
     transform: translate(var(--work-card-hover-offset), var(--work-card-hover-offset));
     transition: transform var(--work-card-hover-transition-time) var(--ease-out-snap-back);
+  }
+
+  .home-page-heading {
+    font-size: 3.25rem;
+    line-height: 3.5rem;
+  }
+
+  .main-nav li:not(:last-child) {
+    margin-right: 1rem;
   }
   
 }
