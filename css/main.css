@@ -158,11 +158,13 @@ a::after {
   transition: transform 0.15s var(--ease-out-quart);
 }
 
-a:hover {
+a:hover,
+a:active {
   color: var(--font-color-a);
 }
 
-a:hover::after {
+a:hover::after,
+a:active::after {
   transform: translate(0, 0) scale(1, 1) ;
   transition: transform 0.15s var(--ease-out-snap-back-small);
 }
