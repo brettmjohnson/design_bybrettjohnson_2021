@@ -158,13 +158,11 @@ a::after {
   transition: transform 0.15s var(--ease-out-quart);
 }
 
-a:hover,
-a:active {
+a:hover {
   color: var(--font-color-a);
 }
 
-a:hover::after,
-a:active::after {
+a:hover::after {
   transform: translate(0, 0) scale(1, 1) ;
   transition: transform 0.15s var(--ease-out-snap-back-small);
 }
@@ -1061,15 +1059,6 @@ a.work-card-overlay-link::after {
 
   :root {
     --page-side-margin: 1.5rem;
-  }
-
-  .work-card-image {
-    transform: translate(calc(var(--work-card-hover-offset) * -.5), calc(var(--work-card-hover-offset) * -1));
-    transition: transform var(--work-card-hover-transition-time) var(--ease-out-snap-back);
-  }
-  .work-card-image::after {
-    transform: translate(var(--work-card-hover-offset), var(--work-card-hover-offset));
-    transition: transform var(--work-card-hover-transition-time) var(--ease-out-snap-back);
   }
 
   .home-page-heading {
