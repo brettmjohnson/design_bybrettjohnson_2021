@@ -614,7 +614,7 @@ a.work-card-overlay-link::after {
    ========================================================================== */
 
 .films-by {
-  background-color: #1C1C1C;
+  background-color: #222;
   --font-color-a: var(--white);
   --font-color-b: var(--white-transparent);
 }
@@ -669,12 +669,7 @@ a.work-card-overlay-link::after {
    ========================================================================== */
 
 .king-pong {
-  background-color: #012B4E;
-  /* background-color: #213545; */
-  background-color: #042744;
-  background-color: #072741;
-  background-color: #0B273D;
-  background-color: #0e283b;
+  background-color: #0b304b;
   --font-color-a: var(--white);
   --font-color-b: var(--white-transparent);
 }
@@ -705,7 +700,6 @@ a.work-card-overlay-link::after {
    ========================================================================== */
 
 .power-eng {
-  background-color: #D1D1D1;
   background-color: #333;
   --font-color-a: var(--white);
   --font-color-b: var(--white-transparent);
