@@ -637,6 +637,13 @@ a.work-card-overlay-link::after {
   border-radius: var(--device-border-radius) / calc(390 / 844 * var(--device-border-radius));
 }
 
+@media only screen and (max-width: 734px) {
+  .afterthought .page-heading {
+    font-size: 2.75rem;
+    line-height: 3rem;
+  }
+}
+
 /* ==========================================================================
    Expedia Widget
    ========================================================================== */
