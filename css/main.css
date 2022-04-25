@@ -314,6 +314,19 @@ blockquote {
   color: var(--font-color-b);
 }
 
+.caption ul {
+  padding-left: 0;
+  margin: 0;
+  /* margin-top: 1rem; */
+}
+
+.caption ul li {
+  list-style-type: none;
+  color: var(--font-color-b);
+  font-size: 1.125rem;
+  margin-top: 1rem;
+}
+
 /* ==========================================================================
    Header Nav Bar
    ========================================================================== */
@@ -607,6 +620,41 @@ a.work-card-overlay-link::after {
   left: -2.5%;
   bottom: 15%;
   box-shadow: rgba(0, 0, 0, 0.2) 0 0 1.25rem 0;
+}
+
+/* ==========================================================================
+   Afterthought
+   ========================================================================== */
+
+.afterthought {
+  background-color: #6129D1;
+  --font-color-a: var(--white);
+  --font-color-b: var(--white-transparent);
+}
+
+.afterthought-phone {
+  --device-border-radius: 12%;
+  border-radius: var(--device-border-radius) / calc(390 / 844 * var(--device-border-radius));
+}
+
+/* ==========================================================================
+   Expedia Widget
+   ========================================================================== */
+
+.expedia-widget {
+  background-color: #FFC94C;
+  --font-color-a: var(--dark-gray);
+  --font-color-b: var(--dark-gray-transparent);
+}
+
+.expedia-widget-phone {
+  --device-border-radius: 10%;
+  border-radius: var(--device-border-radius) / calc(375 / 812 * var(--device-border-radius));
+}
+
+.expedia-widget-ipad {
+  --device-border-radius: 2%;
+  border-radius: var(--device-border-radius) / calc(1180 / 820 * var(--device-border-radius));
 }
 
 /* ==========================================================================
